@@ -89,7 +89,7 @@ p {
 }
 
 .scrolltop:hover{
-  background-color: darkgray;
+  background-color: rgb(212, 34, 34);
 }
 
 .scrolltop_icon{
@@ -255,26 +255,25 @@ p {
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#hero ul {
+ #hero ul {
   position: fixed;
   top: 50%;
   left: 1rem;
   transform: translateY(-50%);
   list-style: none;
 }
-#hero ul li {
+ #hero ul li {
   margin-top: 16px;
-
 }
-#hero ul li a {
-  color: rgb(197, 19, 19);
+#hero ul li a i {
+  color: black;
 }
-#hero ul li a img {
-  font-size: 66rem;
+#hero ul li a i {
+  font-size: 2.5rem;
 }
-#hero .social li a img:hover {
-  color: var(--red);
-}
+#hero ul li a:hover i {
+  color: crimson;
+}  
 #hero h1 {
 	display: block;
 	width: fit-content;
@@ -460,6 +459,11 @@ p {
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+	color: snow;
+}
+
+#projects .project-info a:hover h1 {
+	color: crimson;
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
@@ -647,7 +651,7 @@ p {
 }
 @keyframes text_reveal {
 	100% {
-		color: white;
+		color: rgb(238, 223, 223);
 	}
 }
 @keyframes text_reveal_name {
