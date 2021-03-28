@@ -32,7 +32,6 @@ document.addEventListener('scroll', () => {
 	}
 });
 
-
 function scrollTop() {
   const scrollTop = document.getElementById('scroll-top')
   if (this.scrollY >= 500) scrollTop.classList.add('show-scroll');

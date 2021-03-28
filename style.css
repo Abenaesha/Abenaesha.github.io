@@ -277,7 +277,7 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-	font-size: 3.2rem;
+	font-size: 3.1rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal .5s ease forwards;
@@ -514,7 +514,7 @@ p {
 }
 #about .col-right h2 {
 	font-size: 1.8rem;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: .2rem;
 	margin-bottom: 10px;
 }
@@ -526,6 +526,7 @@ p {
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
+	font-weight: bold;
 }
 #about .col-left .about-img {
 	height: 100%;
