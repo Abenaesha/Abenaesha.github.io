@@ -20,7 +20,7 @@ a {
   justify-content: center;
 }
 .section-break {
-  border-radius: 20px;
+  border-radius: 5px;
   border-top: 3px solid rgb(209, 36, 70);
   margin: 50px auto;
   width: 50%;
@@ -571,6 +571,9 @@ p {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
+}
+#contact .section-title{
+  margin-left: 15px;
 }
 #contact .contact-items {
   width: 400px;
